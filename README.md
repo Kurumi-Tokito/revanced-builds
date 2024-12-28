@@ -1,10 +1,10 @@
 # ReVanced Builds
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/revanced_to)
-[![CI](https://github.com/Ivy-Tokito/revanced-builds/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/Ivy-Tokito/revanced-builds/actions/workflows/ci.yml)
+[![CI](https://github.com/Kurumi-Tokito/revanced-builds/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/Kurumi-Tokito/revanced-builds/actions/workflows/ci.yml)
 
 Extensive ReVanced builder
 
-Get the [latest CI release](https://github.com/Ivy-Tokito/revanced-builds/releases).
+Get the [latest CI release](https://github.com/Kurumi-Tokito/revanced-builds/releases).
 
 Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules.
 
@@ -29,7 +29,7 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 ## To include/exclude patches or patch other apps
 
  * Star the repo :eyes:
- * Use the repo as a [template](https://github.com/new?template_name=revanced-builds&template_owner=Ivy-Tokito)
+ * Use the repo as a [template](https://github.com/new?template_name=revanced-builds&template_owner=Kurumi-Tokito)
  * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
  * Run the build [workflow](../../actions/workflows/build.yml)
  * Grab your modules and APKs from [releases](../../releases)
@@ -39,12 +39,12 @@ also see here [`CONFIG.md`](./CONFIG.md)
 ## Building Locally
 ### On Termux
 ```console
-bash <(curl -sSf https://raw.githubusercontent.com/Ivy-Tokito/revanced-builds/main/build-termux.sh)
+bash <(curl -sSf https://raw.githubusercontent.com/Kurumi-Tokito/revanced-builds/main/build-termux.sh)
 ```
 
 ### On Desktop
 ```console
-$ git clone https://github.com/Ivy-Tokito/revanced-builds
+$ git clone https://github.com/Kurumi-Tokito/revanced-builds
 $ cd revanced-builds
 $ ./build.sh
 ```
